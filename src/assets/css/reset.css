@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.block_center {
+  margin: 0 auto;
+}
+
+.block_left {
+  float: left;
+}
+
+.block_right {
+  float: right;
+}
+.position_right {
+  position: absolute;
+  right: 0
+}
+.position_left {
+  position: absolute;
+  left: 0
+}
+.clear_fix::after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.zIndex_1{
+  z-index: 10;
+}
+.zIndex_2{
+  z-index: 50;
+}
+.zIndex_3{
+  z-index: 100;
+}
+.zIndex_4{
+  z-index: 500;
+}
+.zIndex_5{
+  z-index: 1000;
+}
+.el-message{
+  min-width: 200px !important;
+}
+.mr20{
+  margin-right: 20px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.flex{
+  display: flex;
+}
+.flexWrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexCenter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flexWrapJustify{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
